@@ -1,0 +1,54 @@
+* {
+box-sizing: border-box;
+font-family: Comic Sans MS, Comic Sans MS5, cursive;
+margin: 0 0 0 0;
+}
+header{
+	width: 100%;
+	background-color: #A9A9A9;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+h1 {
+	margin-left: 15%;
+	font-weight: bolder;
+	position: relative;
+}
+.navbar-light .navbar-toggler {
+	border-width: 2px;
+	border-color: black;
+	background: right;
+}
+.navbar-toggler-icon {
+	color: black;
+	float: right;
+}
+div li {
+	width: 100%;
+	text-align: center;
+	border: 2px solid black;
+}
+h2 {
+	margin: 10px auto 20px auto;
+}
+h5 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.row {
+	background-color: #A9A9A9;
+	padding: 20px 10px 20px;
+}
+#main-content #main-box {
+	margin: 10px;
+}
+
+@media (max-width: 575px) {
+	#main-content #main-box {
+		margin-right: 50px;
+		margin-left: 50px;
+	}
+	h1 {
+		font-size: 1.9em;
+	}
+}
